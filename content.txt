@@ -1,0 +1,2043 @@
+UNIT 1
+Python Programming Introduction
+ Python is a general-purpose programming language conceived in 1989 by Dutch
+programmer  Guido van Rossum while working at National Research Institute(NRI) at Netherlands.
+ But officially Python was made available to public in 1991. The official Date of Birth for  Python is: Feb 20th 1991.
+ The name Python was selected from the TV Show " Monty Python's Flying Circus. ", which  was broadcasted in BBC from 
+1969 to 1974.
+ Python is derived from many other languages, including ABC, Modula-3, C, C++, Algol68,  Smalltalk, and Unix shell. 
+Most of syntax in Python Derived from C and ABC languages.
+ Python is recommended as first programming language for beginners
+ Guido developed Python language by taking almost all programming features from different  languages :
+1. Functional Programming Features from C
+2. Object Oriented Programming Features from C++
+3. Scripting Language Features from Perl and Shell Script
+4. Modular Programming Features from Modula-3
+Most of syntax in Python Derived from C and ABC languages.
+History of Python
+ Python was developed by Guido Van Rossum in the year 1991 at SƟchƟng MathemaƟsch  Centrum in the Netherlands as a 
+successor of a language called ABC.
+ Name “Python” picked from TV Show Monty Python’s Flying Circus.
+ Guido Van Rossum published the first version of Python code (version 0.9.0) at alt.sources in  February 1991. This
+ release included already exception handling, functions, and the core  data types of list, dict, str and others. It 
+ was also object oriented and had a module system.
+ Python version 1.0 was released in January 1994. The major new features included in this  release were the funcƟonal 
+programming tools lambda, map, filter and reduce.
+
+ Six and a half years later in October 2000, Python 2.0 was introduced. This release included  list comprehensions, a 
+full garbage collector and it was supporƟng Unicode.
+ Python flourished for another 8 years in the versions 2.x before the next major release as  Python 3.0 (also known as 
+"Python 3000" and "Py3K") was released on December 3rd, 2008.
+ Python 3 is not backwards compaƟble with Python 2.x. The emphasis in Python 3 had been  on the removal of duplicate pr
+ogramming constructs and modules.
+ Latest Python 3 version - Python 3.11.1, Latest Python 2 version - Python 2.7.18
+Applications of Python
+The application areas of python are numerous. Python is used:
+ For developing Desktop Applications
+ For developing Web Applications
+ For developing Database Applications
+ For Network Programming
+ For developing games
+ For Machine Learning and Data Analysis Applications
+ For developing Artificial Intelligence Applications
+ For IOT and many more
+Top Companies using Python
+ Industrial Light and Magic
+ Google
+ Facebook
+ Instagram
+ Spotify
+ Quora
+ Netflix
+ Dropbox
+ Reddit and many more
+Features of Python:
+1. Simple and easy to learn Language:
+ Python is a simple programming language. When we read Python program, we can feel like  reading English statements.
+ The syntaxes are very simple and only 30+ keyword’s are available.
+ When compared with other languages, we can write programs with very less number of  lines. Hence more readability and 
+simplicity.
+ We can reduce development and cost of the project.
+2. Freeware and Open Source:
+ We can use Python soŌware without any licence and it is freeware.
+ Its source code is open, so that we can we can customize based on our requirement.   Eg: Jython is customized version
+ of Python to work with Java ApplicaƟons
+3. High Level Programming language:
+ Python is high level programming language and hence it is programmer friendly language.  Being a programmer we are not
+ required to concentrate low level acƟviƟes like memory  management and security etc..
+4. Both Procedure Oriented and Object Oriented Language:
+Python language supports both Procedure oriented (like C, pascal etc) and object oriented  (like C++,Java) features. Hence
+ we can get benefits of both like security and reusability etc
+5. Plaƞorm Independent:
+ Once we write a Python program, it can run on any plaƞorm without rewriƟng once again.  Internally PVM is responsible to
+ convert into machine understandable form.
+6. Portability:
+ Python programs are portable. ie we can migrate from one plaƞorm to another plaƞorm very  easily. Python programs will 
+provide same results on any plaƞorm.
+7. Dynamically Typed Language:
+ In Python we are not required to declare type for variables. Whenever we are assigning the  value, based on value, type
+ will be allocated automaƟcally. Hence Python is considered as  dynamically typed language.
+ But Java, C etc are StaƟcally Typed Languages b'z we have to provide type at the beginning  only.
+ This dynamic typing nature will provide more flexibility to the programmer.  8. Interpreted Language:
+ We are not required to compile Python programs explicitly. Internally Python interpreter will  take care that compilaƟon.
+ If compilaƟon fails interpreter raised syntax errors. Once compilaƟon success then PVM  (Python Virtual Machine) is 
+responsible to execute.
+9. Extensible Language:
+We can use other language programs in Python.The main advantages of this approach are:  1. We can use already exisƟng 
+legacy non-Python code
+2. We can improve performance of the applicaƟon
+10. Embedded:
+We can use Python programs in any other language programs.
+i.e we can embed Python programs anywhere.
+11. Extensive/Rich Library:
+Python has a rich inbuilt library.
+Being a programmer we can use this library directly and we are not responsible to implement the  funcƟonality.
+12.Increased ProducƟvity:
+Python has a simple syntax and powerful libraries that can help developers write code faster and  more efficiently. 
+This can increase producƟvity and save Ɵme for developers and organizaƟons.
+LimitaƟons of Python:
+1. Performance wise not up to the mark b'z it is interpreted language.
+2. Not using for mobile ApplicaƟons
+Flavors of Python:
+1.CPython:
+It is the standard flavor of Python. It can be used to work with C language ApplicaƟons 2. Jython or JPython:
+It is for Java ApplicaƟons. It can run on JVM
+3. IronPython:
+It is for C#.Net plaƞorm
+4.PyPy:
+The main advantage of PyPy is performance will be improved because JIT compiler is available inside  PVM.
+5.RubyPython
+For Ruby Plaƞorms
+6. AnacondaPython
+It is specially designed for handling large volume of data processing.
+……
+ExecuƟng Python Program
+ Command Line Window
+ IDLE (IDLE stands for Integrated Development and Learning Environment.)   Notepad or Notepad++
+ PyCharm
+ Visual Studio Code
+First Python Program
+Let us execute a Python "Hello, World!" Programs in different modes of programming.  Python - InteracƟve Mode
+ Programming
+We can invoke a Python interpreter from command line by typing python at the command prompt as  following −
+$ python or python3
+Python 3.6.8 (default, Sep 10 2021, 09:13:53)
+[GCC 8.5.0 20210514 (Red Hat 8.5.0-3)] on linux
+Type "help", "copyright", "credits" or "license" for more informaƟon.
+>>>
+Here >>> denotes a Python Command Prompt where you can type your commands. Let's type the  following text at
+ the Python prompt and press the Enter −
+>>> print ("Hello, World!")
+If you are running older version of Python, like Python 2.4.x, then you would need to use print  statement
+ without parenthesis as in print "Hello, World!". However in Python version 3.x, this  produces the following result −
+Output:
+Hello, World!
+Python - Script Mode Programming
+We can invoke the Python interpreter with a script parameter which begins the execuƟon of the  script and conƟnues 
+unƟl the script is finished. When the script is finished, the interpreter is no  longer acƟve.
+Let us write a simple Python program in a script which is simple text file. Python files have extension  .py. Type
+ the following source code in a test.py file −
+print ("Hello, World!")
+To run this program as follows −
+$ python test.py
+This produces the following result −
+Hello, World!
+Basic Structure of a Python Program
+Basically, a Python program consists of individual statements, which in the simplest case take up  exactly one 
+line in the source code. For example, the following statement prints text on the screen:
+print("Hello World")
+
+Some statements can be divided into a statement header and a statement body, where the body can  contain further statements:
+
+Statement header:
+Statement
+…........
+Statement
+In a real Python program, this may look something like this:
+X=25
+if x > 10:
+print("x is greater than 10")
+print("Second line!")
+Python IndentaƟon
+ IndentaƟon refers to the spaces at the beginning of a code line.
+ Where in other programming languages the indentaƟon in code is for readability only, the  indentaƟon in Python
+ is very important.
+ Python uses indentaƟon to indicate a block of code.
+ Example:
+ if 5 > 2:
+ print("Five is greater than two!")
+ print("Five is greater than two!")
+ Output: IndentaƟon Error: Unexpected error
+Python - Comments
+There are two types of comments available in Python
+1) Single line Comments
+2) MulƟline Comments
+1) Single Line Comments
+A hash sign (#) that is not inside a string literal begins a comment. All characters aŌer the # and up to  the 
+end of the physical line are part of the comment and the Python interpreter ignores them.
+Example :Following is an example of a single line comment in Python:
+# This is a single line comment in python
+print ("Hello, World!")
+This produces the following result −
+Hello, World!
+Differences between Python 2.x and Python 3.x with examples
+1) Python 3 syntax is simpler and easily understandable whereas Python 2 syntax is comparaƟvely  difficult to understand.
+2) input funcƟon:
+In python 2 funcƟons (raw_input() and input() are used to read data from keyword whereas in  python 3 only one
+ funcƟon input() is used to read data from keyword
+Example:
+x=raw_input("Enter first number") # python 2
+x=input("Enter first number") # python 3
+3) Division operator:
+Example: print 7 / 5
+
+Output in Python 2.x: 1
+Output in Python 3.x : 1.4
+4) In Python2 we have long data type to represent very large integral values.
+But in Python3 there is no long type explicitly and we can represent long values also by using int type  only.
+5) print funcƟon:
+The print keyword in Python 2.x is replaced by the print() funcƟon in Python 3.x.  print 'Hello, World' 
+# Python 3.x doesn't support
+Output in Python 2.x :
+Hello, World
+Output in Python 3.x :
+File "a.py", line 1
+SyntaxError: invalid syntax
+ if we use parentheses in python 2.x then there is no issue but if we don’t use parentheses in  python 3.x, 
+we get Syntax Error.
+
+
+6) xrange funcƟon:
+Python 3 offers Range() funcƟon to perform iteraƟons whereas, In Python 2, the xrange() is used for  iteraƟons.
+xrange() of Python 2.x doesn’t exist in Python 3.x.
+for x in xrange(1, 5):
+print(x),
+
+for x in range(1, 5):
+print(x),
+'''
+Output in Python 2.x Output in Python 3.x
+1 2 3 4 1 2 3 4 NameError: name 'xrange' is not defined
+7) cmp() is used in python 2 but not in python 3
+
+IdenƟfiers
+A name in Python program is called idenƟfier. It can be class name or funcƟon name or module name  or variable name.
+a = 10
+Rules to define idenƟfiers in Python:
+1. The only allowed characters in Python are
+ alphabet symbols(either lower case or upper case)
+ digits(0 to 9)
+ underscore symbol(_)
+By mistake if we are using any other symbol like $ then we will get syntax error.   cash = 10 √
+ ca$h =20 X
+2. IdenƟfier should not starts with digit
+ 123total X
+ total123 √
+3. IdenƟfiers are case sensiƟve. Of course Python language is case sensiƟve language.  total=10
+ TOTAL=999
+ print(total) #10
+ print(TOTAL) #999
+IdenƟfier:
+1. Alphabet Symbols (Either Upper case OR Lower case)
+2. If IdenƟfier is start with Underscore (_) then it indicates it is private.
+3. IdenƟfier should not start with Digits.
+4. IdenƟfiers are case sensiƟve.
+5. We cannot use reserved words as idenƟfiers
+Eg: def=10 r
+6. There is no length limit for Python idenƟfiers. But not recommended to use too lengthy idenƟfiers. 7. 
+Dollor ($) Symbol is not allowed in Python.
+Q. Which of the following are valid Python idenƟfiers?
+1) 123total X
+2) total123 √
+3) java2share √
+4) ca$h X
+5) _abc_abc_ √
+6) def X
+7) if X
+Note:
+1. If idenƟfier starts with _ symbol then it indicates that it is private
+2. If idenƟfier starts with __(two under score symbols) indicaƟng that strongly private idenƟfier.
+3.If the idenƟfier starts and ends with two underscore symbols then the idenƟfier is language  defined special 
+name,which is also known as magic methods.
+Eg: __add_
+Python Keywords
+ Keywords are the reserved words in Python.
+ All the keywords except True, False, and None are in lower case.
+ There are 33 reserved words available in Python.
+Variables
+ In Python, variables is seen as a labels or tags that is Ɵed to some value. Python considers  the values
+ as objects. Thus, Variables provide a way to associate names with objects.
+ For example, the statement a=1 means the value ‘1’ is created first in memory and then a tag  by the name ‘a’ is created.
+• Eg:
+• pi = 3
+• radius = 11
+• area = pi * (radius**2)
+• radius = 14
+• It first binds the names pi and radius to different objects of type int. It then binds the name  area to 
+a third object of type int. This is depicted in the leŌ panel of Figure.
+• If the program then executes radius = 11, the name radius is rebound to a different object of  type int, as shown in the 
+right panel of Figure.
+• Note that this assignment has no effect on the value to which area is bound. It is sƟll bound  to the object denoted by 
+the expression 3*(11**2).
+• In Python, a variable is just a name, nothing more. Remember this—it is important.
+• An assignment statement associates the name to the leŌ of the = symbol with the object  denoted by the expression to the
+ right of the =.
+• An object can have one, more than one, or no name associated with it.
+• No need to declare a variable. A variable is created the moment you first assign a value to it  (Dynamic Typing).
+Constants:
+ Constants concept is not applicable in Python.
+ But it is convenƟon to use only uppercase characters if we don’t want to change value.  MAX_VALUE=10
+ It is just convenƟon but we can change the value
+Operators
+• Operator is a symbol that performs certain operaƟons.
+Python provides the following set of operators
+1. ArithmeƟc Operators
+2. RelaƟonal Operators or Comparison Operators
+3. Logical operators
+4. Bitwise operators
+5. Assignment operators
+6. Special operators
+Fundamental Data types
+In Python the following data types are considered as Fundamental Data types   1) int
+2) float
+3) complex
+4) bool
+5) str
+1) int data type:
+We can use int data type to represent whole numbers (integral values)  Eg:
+a=10
+type(a) #int
+Note:
+In Python2 we have long data type to represent very large integral values.  But in Python3 there is no long type 
+explicitly and we can represent long values also by  using int type only.
+We can represent int values in the following ways
+1. Decimal form
+2. Binary form
+3. Octal form
+4. Hexa decimal form
+1. Decimal form(base-10):
+It is the default number system in Python
+The allowed digits are: 0 to 9
+Eg: a =10
+2. Binary form(Base-2):
+The allowed digits are : 0 & 1
+Literal value should be prefixed with 0b or 0B
+Eg: a = 0B1111
+a =0B123
+a=b111
+3. Octal Form(Base-8):
+The allowed digits are : 0 to 7
+Literal value should be prefixed with 0o or 0O
+Eg: a=0o123
+a=0o786
+4. Hexa Decimal Form(Base-16):
+The allowed digits are : 0 to 9, a-f (both lower and upper cases are allowed)  Literal value should be prefixed with 0x or 0X
+Eg:
+a =0XFACE
+a=0XBeef
+2) float data type:
+We can use float data type to represent floaƟng point values (decimal values) Example
+f=1.234
+type(f) float
+We can also represent floaƟng point values by using exponenƟal form (scienƟfic notaƟon) Eg: f=1.2e3
+print(f) 1200.0
+instead of 'e' we can use 'E'
+The main advantage of exponenƟal form is we can represent big values in less memory.
+***Note:
+We can represent int values in decimal, binary, octal and hexa decimal forms. But we can represent  float values
+ only by using decimal form.
+3) Complex Data Type:
+A complex number is of the form
+a and b contain intergers or floaƟng point values
+Example:
+3+5j
+10+5.5j
+0.5+0.1
+In the real part if we use int value then we can specify that either by decimal,octal,binary or hexa  decimal form.
+But imaginary part should be specified only by using decimal form.
+1) >>> a=0B11+5j
+2) >>> a
+3) (3+5j)
+4) >>> a=3+0B11j
+5) SyntaxError: invalid syntax
+4) bool data type:
+We can use this data type to represent boolean values.
+The only allowed values for this data type are:
+True and False
+Internally Python represents True as 1 and False as 0
+b=True
+type(b) =>bool
+Eg:
+a=10
+b=20
+c=a<b
+print(c)==>True
+True+True==>2
+True-False==>1
+5) str type:
+str represents String data type. A String is a sequence of characters enclosed within single quotes or  double quotes.
+s1='hello'
+s1="hello"
+By using single quotes or double quotes we cannot represent mulƟ line string literals. s1="hello
+medicaps"
+For this requirement we should go for triple single quotes(''') or triple double quotes(""")  s1='''hello
+medicaps'''
+s1="""hello
+medicaps"""
+We can also use triple quotes to use single quote or double quote in our String.  ''' This is " character'''
+' This i " Character '
+We can embed one string in another string
+'''This "Python class very helpful" for java students'''
+Slicing of Strings:
+slice means a piece
+[ ] operator is called slice operator, which can be used to retrieve parts of String.  In Python Strings follows 
+zero based index.
+The index can be either +ve or -ve.
++ve index means forward direcƟon from LeŌ to Right
+-ve index means backward direcƟon from Right to LeŌ
+Type CasƟng
+We can convert one type value to another type. This conversion is called TypecasƟng or Type  coercion.
+The following are various inbuilt funcƟons for type casƟng.
+1. int()
+2. float()
+3. complex()
+4. bool()
+5. str()
+1.int():
+We can use this funcƟon to convert values from other types to int
+Example:
+1) >>> int(123.987)
+2) 123
+3) >>> int(10+5j)
+4) TypeError: can't convert complex to int
+5) >>> int(True)
+6) 1
+7) >>> int(False)
+8) 0
+2. float():
+We can use float() funcƟon to convert other type values to float type.
+1) >>> float(10)
+2) 10.0
+3) >>> float(10+5j)
+4) TypeError: can't convert complex to float
+5) >>> float(True)
+6) 1.0
+7) >>> float(False)
+8) 0.0
+9) >>> float("10")
+10) 10.0
+11) >>> float("10.5")
+12) 10.5
+3.complex():
+We can use complex() funcƟon to convert other types to complex type. Form-1: complex(x)
+We can use this funcƟon to convert x into complex number with real part x and imaginary  part 0.
+Eg:
+1) complex(10)==>10+0j
+2) complex(10.5)===>10.5+0j
+3) complex(True)==>1+0j
+4) complex(False)==>0j
+5) complex("10")==>10+0j
+6) complex("10.5")==>10.5+0j
+7) complex("ten")
+8) ValueError: complex() arg is a malformed string
+5. str():
+We can use this method to convert other type values to str type
+Example:
+1) >>> str(10)
+2) '10'
+3) >>> str(10.5)
+4) '10.5'
+5) >>> str(10+5j)
+6) '(10+5j)'
+7) >>> str(True)
+8) 'True'
+Fundamental Data Types vs Immutability:
+ All Fundamental Data types are immutable. i.e once we creates an object, we cannot  perform any changes in 
+that object. If we are trying to change then with those changes a  new object will be created. This non-cha
+ngeable behavior is called immutability.
+ In Python if a new object is required, then PVM wont create object immediately. First it will  check is 
+any object available with the required content or not. If available then exisƟng  object will be reused. If 
+it is not available then only a new object will be created.
+ The advantage of this approach is memory uƟlizaƟon and performance will be improved. But  the problem in
+ this approach is, several references poinƟng to the same object, by using one  reference if we are allowed 
+ to change the content in the exisƟng object then the remaining  references will be effected. To prevent thi
+ s immutability concept is required.
+ According to this once creates an object we are not allowed to change content. If we are  trying to change
+ with those changes a new object will be created.
+ Example:
+ 1) >>> a=10
+ 2) >>> b=10
+ 3) >>> a is b
+ 4) True
+ 5) >>> id(a)
+ 6) 1572353952
+ 7) >>> id(b)
+ 8) 1572353952
+ bytes Data Type:
+ bytes data type represens a group of byte numbers just like an array.
+ Eg:
+ 1) x = [10,20,30,40]
+ 2) b = bytes(x)
+ 3) type(b)==>bytes
+ 4) print(b[0])==> 10
+ 5) print(b[-1])==> 40
+ 6) >>> for i in b : print(i)
+ 7)
+ 8) 10
+ 9) 20
+ 10) 30
+ 11) 40
+ Conclusion 1:
+ The only allowed values for byte data type are 0 to 256. By mistake if we are trying to  provide any other 
+values then we will get value error.
+ Conclusion 2:
+ Once we creates bytes data type value, we cannot change its values, otherwise we will get  Type Error.
+ Example:
+ 1) >>> x=[10,20,30,40]
+ 2) >>> b=bytes(x)
+ 3) >>> b[0]=100
+ 4) Type Error: 'bytes' object does not support item assignment
+ Note:
+ In general we can use bytes and bytearray data types to represent binary informaƟon like  images,video files etc
+bytearray Data type:
+bytearray is exactly same as bytes data type except that its elements can be modified.
+Example:
+1) x=[10,20,30,40]
+2) b = bytearray(x)
+3) for i in b : print(i)
+4) 10
+5) 20
+6) 30
+7) 40
+list data type:
+If we want to represent a group of values as a single enƟty where inserƟon order required to  preserve and 
+duplicates are allowed then we should go for list data type.
+1. inserƟon order is preserved
+2. heterogeneous objects are allowed
+3. duplicates are allowed
+4. Growable in nature
+5. values should be enclosed within square brackets.
+Example:
+1) list=[10,10.5,'durga',True,10]
+2) print(list) # [10,10.5,'durga',True,10]
+list is growable in nature. i.e based on our requirement we can increase or decrease the size.  Example
+1) >>> list=[10,20,30]
+2) >>> list.append("durga")
+3) >>> list
+4) [10, 20, 30, 'durga']
+5) >>> list.remove(20)
+6) >>> list
+7) [10, 30, 'durga']
+8) >>> list2=list*2
+9) >>> list2
+10) [10, 30, 'durga', 10, 30, 'durga']
+Note: An ordered, mutable, heterogeneous collecƟon of elements is nothing but list, where  duplicates also allowed.
+tuple data type:
+tuple data type is exactly same as list data type except that it is immutable.i.e we cannot change  values.
+Tuple elements can be represented within parenthesis.
+Example:
+1) t=(10,20,30,40)
+2) type(t)
+3) <class 'tuple'>
+4) t[0]=100
+5) TypeError: 'tuple' object does not support item assignment
+6) >>> t.append("durga")
+7) AƩributeError: 'tuple' object has no aƩribute 'append'
+8) >>> t.remove(10)
+9) AƩributeError: 'tuple' object has no aƩribute 'remove'
+Note: tuple is the read only version of list
+range Data Type:
+range Data Type represents a sequence of numbers.
+The elements present in range Data type are not modifiable. i.e range Data type is immutable.  Form-1: range(10)
+generate numbers from 0 to 9
+Eg:
+r=range(10)
+for i in r : print(i) 0 to 9
+Form-2: range(10,20)
+generate numbers from 10 to 19
+r = range(10,20)
+for i in r : print(i) 10 to 19
+Form-3: range(10,20,2)
+2 means increment value
+r = range(10,20,2)
+for i in r : print(i) 10,12,14,16,18
+We can access elements present in the range Data Type by using index.
+r=range(10,20)
+r[0]==>10
+r[15]==>IndexError: range object index out of range
+We cannot modify the values of range data type
+Eg:
+r[0]=100
+TypeError: 'range' object does not support item assignment
+We can create a list of values with range data type
+Eg:
+1) >>> l = list(range(10))
+2) >>> l
+3) [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+set Data Type:
+If we want to represent a group of values without duplicates where order is not important then we  should go
+ for set Data Type.
+1. inserƟon order is not preserved
+2. duplicates are not allowed
+3. heterogeneous objects are allowed
+4. index concept is not applicable
+5. It is mutable collecƟon
+6. Growable in nature
+Example:
+1) s={100,0,10,200,10,'durga'}
+2) s # {0, 100, 'durga', 200, 10}
+3) s[0] ==>TypeError: 'set' object does not support indexing
+5) set is growable in nature, based on our requirement we can increase or decrease the size.  6)
+7) >>> s.add(60)
+8) >>> s
+9) {0, 100, 'durga', 200, 10, 60}
+10) >>> s.remove(100)
+11) >>> s
+12) {0, 'durga', 200, 10, 60}
+frozenset Data Type:
+It is exactly same as set except that it is immutable.
+Hence we cannot use add or remove funcƟons.
+1) >>> s={10,20,30,40}
+2) >>> fs=frozenset(s)
+3) >>> type(fs)
+4) <class 'frozenset'>
+5) >>> fs
+6) frozenset({40, 10, 20, 30})
+7) >>> for i in fs:print(i)
+8) ...
+9) 40
+10) 10
+11) 20
+12) 30
+1
+dict Data Type:
+If we want to represent a group of values as key-value pairs then we should go for dict  data type.
+Example:
+d={101:'durga',102:'ravi',103:'shiva'}
+Duplicate keys are not allowed but values can be duplicated. If we are trying to insert an  entry with 
+duplicate key then old value will be replaced with new value.  Example:
+1. >>> d={101:'durga',102:'ravi',103:'shiva'}
+2. >>> d[101]='sunny'
+3. >>> d
+4. {101: 'sunny', 102: 'ravi', 103: 'shiva'}
+6. We can create empty dicƟonary as follows
+7. d={ }
+8. We can add key-value pairs as follows
+9. d['a']='apple'
+10. d['b']='banana'
+11. print(d)
+Note:
+dict is mutable and the order wont be preserved
+None Data Type:
+None means Nothing or No value associated.
+If the value is not available, then to handle such type of cases None introduced.  It is something like null value in Java.
+Example:
+def m1():
+a=10
+print(m1()
+None
+Input And Output Statements
+Reading dynamic input from the keyboard:
+In Python 2 the following 2 funcƟons are available to read dynamic input from the keyboard.  1. raw_input()
+2. input()
+1. raw_input():
+This funcƟon always reads the data from the keyboard in the form of String Format. We have to  convert that 
+string type to our required type by using the corresponding type
+casƟng methods.
+Example:
+x=raw_input("Enter First Number:")
+print(type(x)) It will always print str type only for any input type
+2. input():
+input() funcƟon can be used to read data directly in our required format.We are not  required to perform type casƟng.
+x=input("Enter Value)
+type(x)
+10 ===> int
+“hello"===>str
+10.5===>float
+True==>bool
+Note: But in Python 3 we have only input() method and raw_input() method is not  available.
+Python3 input() funcƟon behavior exactly same as raw_input() method of Python2. i.e. every input  value is
+ treated as str type only.
+raw_input() funcƟon of Python 2 is renamed as input() funcƟon in Python3 Example:
+1) >>> type(input("Enter value:"))
+2) Enter value:10
+3) <class 'str'>
+4)
+5) Enter value:10.5
+6) <class 'str'>
+7)
+8) Enter value:True
+9) <class 'str'>
+Q. Write a program to read 2 numbers from the keyboard and print sum.  1) x=input("Enter First Number:")
+2) y=input("Enter Second Number:")
+3) i = int(x)
+4) j = int(y)
+5) print("The Sum:",i+j)
+6)
+7) Enter First Number:100
+8) Enter Second Number:200
+9) The Sum: 300
+How to read mulƟple values from the keyboard in a single line: 1) a,b= [int(x) for x in input("Enter 
+2 numbers :").split()]  2) print("Product is :", a*b)
+3)
+4) D:\Python_classes>py test.py
+5) Enter 2 numbers :10 20
+6) Product is : 200
+Note:
+split() funcƟon can take space as separator by default .But we can pass  anything as separator.
+eval():
+eval FuncƟon take a String and evaluate the Result.
+Example:
+x = eval(“10+20+30”)
+print(x)
+Output: 60
+Example: x = eval(input(“Enter Expression”))
+Enter Expression: 10+2*3/4
+Output11.
+eval() can evaluate the Input to list, tuple, set, etc based the provided Input.  Example: Write a 
+Program to accept list from the keyboard on the display  1) l = eval(input(“Enter List”))
+2) print (type(l))
+3) print(l)
+output statements:
+We can use print() funcƟon to display output.
+Form-1: print() without any argument
+Just it prints new line character
+Form-2:
+1) print(String):
+2) print("Hello World")
+3) We can use escape characters also
+4) print("Hello \n World")
+5) print("Hello\tWorld")
+6) We can use repeƟƟon operator (*) in the string
+7) print(10*"Hello")
+8) print("Hello"*10)
+9) We can use + operator also
+10) print("Hello"+"World")
+Note:
+If both arguments are String type then + operator acts as concatenaƟon operator. If one argument is 
+string type and second is any other type like int then we will get Error  If both arguments are
+ number type then + operator acts as arithmeƟc addiƟon operator. Note:
+1) print("Hello"+"World")
+2) print("Hello","World")
+4) HelloWorld
+5) Hello World
+Form-3: print() with variable number of arguments:
+1. a,b,c=10,20,30
+2. print("The Values are :",a,b,c)
+3. OutputThe Values are : 10 20 30
+By default output values are seperated by space.If we want we can specify seperator by using "sep"  aƩribute
+1. a,b,c=10,20,30
+2. print(a,b,c,sep=',')
+3. print(a,b,c,sep=':')
+4.
+5. D:\Python_classes>py test.py
+6. 10,20,30
+7. 10:20:30
+Form-4:
+print() with end aƩribute:
+1. print("Hello")
+2. print("Durga")
+3. print("SoŌ")
+Output:
+1. Hello
+2. Durga
+3. SoŌ
+If we want output in the same line with space
+1. print("Hello",end=' ')
+2. print("Durga",end=' ')
+3. print("SoŌ")
+Output: Hello Durga SoŌ
+Note: The default value for end aƩribute is \n, which is nothing but new line character.  Form-5:
+print(object) statement:
+We can pass any object (like list,tuple,set etc)as argument to the print() statement.  Example:
+1. l=[10,20,30,40]
+2. t=(10,20,30,40)
+3. print(l)
+4. print(t)
+UNIT 2
+String Data Type
+The most commonly used object in any project and in any programming language is String only.  What is String?
+ Any sequence of characters within either single quotes or double quotes or triple quotes is  considered as a String.
+ In python strings are immutable.
+ The indexes of string begin from 0 to length-1 in forward direcƟon and -1,-2,-3...-length in  backward direcƟon
+Syntax:
+s='indore'
+s="indore"
+Note: In most of other languges like C, C++,Java, a single character with in single quotes is treated as  
+char data type value. But in Python we are not having char data type. Hence it is treated as String  only.
+Example:
+>>> ch='a'
+>>> type(ch)
+<class 'str'
+How to define mulƟ-line String literals:
+We can define mulƟ-line String literals by using triple, single or double quotes.  Example:
+>>> s='''medicaps
+university
+indore'''
+We can also use triple quotes to use single quotes or double quotes as symbol inside String literal.  Example:
+s='This is ' single quote symbol' ==>invalid
+s='This is \' single quote symbol' ==>valid
+s="This is ' single quote symbol"====>valid
+s='The \"Python Notes\" by \'paƟl sir\' is very helpful' ==>valid
+s='''The "Python Notes" by 'paƟl sir' is very helpful''' ==>valid
+How to access characters of a String:
+We can access characters of a string by using the following ways.
+1. By using index
+2. By using slice operator
+1. By using index:
+Python supports both +ve and -ve index.
++ve index means leŌ to right(Forward direcƟon)
+-ve index means right to leŌ(Backward direcƟon)
+Example:
+s=‘indore‘
+Example:
+>>> s=‘PYTHON'
+>>> s[0]
+‘P'
+>>> s[4]
+‘O'
+>>> s[-1]
+‘N'
+>>> s[10]
+IndexError: string index out of range
+Note:
+If we are trying to access characters of a string with out of range index then we will get  error saying : IndexError
+Example:
+Write a program to accept some string from the keyboard and display its characters by index  wise(both
+ posiƟve and negaƟve index)
+s=input("Enter Some String:")
+i=0
+for x in s:
+print("The character present at posiƟve index {} and at nEgaƟve index {} is {}".format(i,i-len(s),x))   i=i+1
+Output:
+Enter Some String: hello
+The character present at posiƟve index 0 and at nEgaƟve index -5 is h
+The character present at posiƟve index 1 and at nEgaƟve index -4 is e
+The character present at posiƟve index 2 and at nEgaƟve index -3 is l
+The character present at posiƟve index 3 and at nEgaƟve index -2 is l
+The character present at posiƟve index 4 and at nEgaƟve index -1 is o
+Traversing a string
+Traversing refers to iteraƟng through the elements of a string, one character at a Ɵme. Example1:
+name="superb"
+for ch in name:
+print (ch,'-',end=' ')
+Output:
+s-u-p-e-r-b
+Example2:
+name="superb"
+for ch in name:
+print (ch)
+Output:
+s
+u
+p
+e
+r
+b
+2. Accessing characters by using slice operator:
+In python , string slice refers to a part of the string, here strings are sliced using a range of indices.  Syntax:
+s[beginindex:endindex:step]
+ beginindex:From where we have to consider slice(substring)
+ endindex: We have to terminate the slice(substring) at endindex-1
+ step: incremented value
+Note:
+ If we are not specifying begin index then it will consider from beginning of the string.   If we are not specifying end index then it will consider up to end of the string   The default value for step is 1
+Example:
+1) >>> s="Learning Python is very very easy!!!"
+2) >>> s[1:7:1]
+3) 'earnin'
+4) >>> s[1:7]
+5) 'earnin'
+6) >>> s[1:7:2]
+7) 'eri'
+8) >>> s[:7]
+9) 'Learnin'
+10) >>> s[7:]
+11) 'g Python is very very easy!!!'
+12) >>> s[::]
+13) 'Learning Python is very very easy!!!'
+14) >>> s[:]
+15) 'Learning Python is very very easy!!!'
+16) >>> s[::-1]
+17) '!!!ysae yrev yrev si nohtyP gninraeL'
+Behaviour of slice operator:
+s[begin:end:step]
+ step value can be either +ve or –ve
+ if +ve then it should be forward direcƟon(leŌ to right) and we have to consider begin to end 1
+ if -ve then it should be backward direcƟon(right to leŌ) and we have to consider begin to  end+1
+Note:
+In the backward direcƟon if end value is -1 then result is always empty.
+In the forward direcƟon if end value is 0 then result is always empty.
+In forward direcƟon:
+default value for begin: 0
+default value for end: length of string
+default value for step: +1
+In backward direcƟon:
+default value for begin: -1
+default value for end: -(length of string+1)
+Note:
+Either forward or backward direcƟon, we can take both +ve and -ve values for begin and end index.
+MathemaƟcal Operators for String:
+We can apply the following mathemaƟcal operators for Strings.
+1. + operator for concatenaƟon (string concatenaƟon operator)
+Example:
+print("hello"+"world")
+Output: helloworld
+2. * operator for repeƟƟon (string replicaƟon operator)
+Example:
+print("hello"*2)
+output: hellohello
+Note:
+1. To use + operator for Strings, compulsory both arguments should be str type
+2. To use * operator for Strings, compulsory one argument should be str and other argument should  be int
+len() in-built funcƟon:
+We can use len() funcƟon to find the number of characters present in the string. Example:
+s='hello'
+print(len(s)) #5
+Write a program to access each character of string in forward and backward direcƟon by using while  loop?
+s="Learning Python is very easy !!!"
+n=len(s)
+i=0
+print("Forward direcƟon")
+while i<n:
+print(s[i],end=' ')
+i +=1
+print("Backward direcƟon")
+i=-1
+while i>=-n:
+print(s[i],end=' ')
+i=i-1
+AlternaƟve ways:
+s="Learning Python is very easy !!!"
+print("Forward direcƟon")
+for i in s:
+print(i,end=' ')
+print("Forward direcƟon")
+for i in s[::]:
+print(i,end=' ')
+
+print("Backward direcƟon")
+for i in s[::-1]:
+print(i,end=' ')
+Checking Membership using membership operator
+We can check whether the character or string is the member of another string or not by using in and  not in operators
+Example
+s='hello'
+print('h' in s) #True
+print('z' in s) #False
+Example
+s=input("Enter main string:")
+subs=input("Enter sub string:")
+if subs in s:
+print(subs,"is found in main string")
+else:
+print(subs,"is not found in main string")
+Comparison of Strings using comparison operators:
+ We can use comparison operators (<,<=,>,>=) and equality operators(==,!=) for strings.   Comparison
+ will be performed based on alphabeƟcal order.
+Example:
+s1=input("Enter first string:")
+s2=input("Enter Second string:")
+if s1==s2:
+print("Both strings are equal")
+elif s1<s2:
+print("First String is less than Second String")   else:
+print("First String is greater than Second String")
+Output:
+Enter first string: hello
+Enter Second string:hello
+Both strings are equal
+Enter first string:hello
+Enter Second string:medicaps
+First String is less than Second String
+Enter first string: medicaps
+Enter Second string:hello
+First String is greater than Second String
+Removing spaces from the string:
+We can use the following 3 methods
+1. rstrip()===>To remove spaces at right hand side  2. lstrip()===>To remove spaces at leŌ hand side 3. 
+strip() ==>To remove spaces both sides  Example:
+city=input("Enter your city Name:")
+scity=city.strip()
+if scity==‘Indore':
+print("Hello Indori..Namaste")
+elif scity=='Chennai':
+print("Hello Madrasi...Vanakkam")
+elif scity=="Bangalore":
+print("Hello Kannadiga...Shubhodaya")   else:
+print("your entered city is invalid")
+String FuncƟons and Methods
+Finding Substrings:
+We can use the following 2 methods
+1) find()
+2) index()
+1. find():
+s.find(substring)
+Returns index of first occurrence of the given substring. If it is not available then we will get -1  Example:
+s="Learning Python is very easy"
+print(s.find("Python")) #9
+print(s.find("Java")) # -1
+print(s.find("r")) #3
+Note:
+By default find() method can search total string. We can also specify the boundaries to search.  s.find(substring,begin,end)
+It will always search from begin index to end-1 index
+Example:
+1) s="medicapsuniversity"
+2) print(s.find('a')) #5
+3) print(s.find('i',7,15))#10
+4) print(s.find('z',7,15))#-1
+2) index() method:
+index() method is exactly same as find() method except that if the specified substring is not available  
+then we will get ValueError.
+Example:
+s=input("Enter main string:")
+subs=input("Enter sub string:")
+try:
+n=s.index(subs)
+except ValueError:
+print("substring not found")
+else:
+print("substring found")
+Output:
+Enter main string:learning python is very easy
+Enter sub string: python
+substring found
+Enter main string: learning python is very easy
+Enter sub string: java
+substring not found
+3) CounƟng substring in the given String:
+We can find the number of occurrences of substring present in the given string by using count()  method.
+1. s.count(substring) ==> It will search through out the string
+2. s.count(substring, bEgin, end) ===> It will search from bEgin index to end-1 index  Example:
+s="abcabcabcabcadda"
+print(s.count('a'))
+print(s.count('ab'))
+print(s.count('a',3,7))
+Output:
+6
+4
+2
+4) Replacing a string with another string:
+s.replace(oldstring,newstring)
+inside s, every occurrence of oldstring will be replaced with newstring.  Example1:
+s="Learning Python is very difficult"
+s1=s.replace("difficult","easy")
+print(s1)
+Output:
+Learning Python is very easy
+Example2: All occurrences will be replaced
+s="ababababababab"
+s1=s.replace("a","b")
+print(s1)
+Output: bbbbbbbbbbbbbb
+5) Spliƫng of Strings:
+We can split the given string according to specified seperator by using split() method.  l=s.split(seperator)
+The default seperator is space. The return type of split() method is List  Example1:
+s="Medicaps university indore"
+l=s.split()
+for x in l:
+print(x)
+Output:
+Medicaps
+university
+indor
+Example2:
+s="22-02-2018"
+l=s.split('-')
+for x in l:
+print(x)
+Output:
+22
+02
+2018
+6) Joining of Strings:
+We can join a group of strings(list or tuple) wrt the given seperator.  s=seperator.join(group of strings)
+Example1:
+t=(‘amit','bina',‘mina')
+s='-'.join(t)
+print(s)
+Output:
+amit-bina-mina
+Example2:
+l=['hyderabad','singapore','london','dubai']
+s=':'.join(l)
+print(s)
+Output:
+hyderabad:singapore:london:dubai
+7) Changing case of a String:
+We can change case of a string by using the following 5 methods.
+1. upper()===>To convert all characters to upper case
+2. lower() ===>To convert all characters to lower case
+3. swapcase()===>converts all lower case characters to upper case and all upper case characters to  lower case
+4. Ɵtle() ===>To convert all character to Ɵtle case. i.e first character in every word should be upper 
+ case and all remaining characters should be in lower case.
+5. capitalize() ==>Only first character will be converted to upper case and all remaining characters  c
+an be converted to lower case
+8) To check type of characters present in a string:
+Python contains the following methods for this purpose.
+1) isalnum(): Returns True if all characters are alphanumeric(a to z , A to Z ,0 to9 )  2) isalpha(): 
+Returns True if all characters are only alphabet symbols(a to z,A to Z)  3) isdigit(): Returns True if 
+all characters are digits only( 0 to 9)
+4) islower(): Returns True if all characters are lower case alphabet symbols  5) isupper(): Returns True
+ if all characters are upper case aplhabet symbols  6) isƟtle(): Returns True if string is in Ɵtle case
+7) isspace(): Returns True if string contains only spaces
+List Data Structure
+A list is a collecƟon of different kinds of values or items.
+ If we want to represent a group of individual objects as a single enƟty where inserƟon order  preserved 
+and duplicates are allowed, then we should go for List.
+ inserƟon order preserved.
+ duplicate objects are allowed
+ heterogeneous objects are allowed.
+ List is dynamic because based on our requirement we can increase the size and decrease the  size.
+ In List the elements will be placed within square brackets and with comma seperator.
+ We can differenƟate duplicate elements by using index and we can preserve inserƟon order  by using index.
+ Hence index will play very important role.
+ Python supports both posiƟve and negaƟve indexes. +ve index means from leŌ to right  where as negaƟve index 
+means right to leŌ
+ List objects are mutable.i.e we can change the content.
+CreaƟon of List Objects:
+1. We can create empty list object as follows...
+list=[]
+print(list)
+print(type(list))
+Output:
+[]
+<class 'list'>
+2. If we know elements already then we can create list as follows
+list=[10,20,30,40 ]
+3. With dynamic input:
+list=eval(input("Enter List:"))
+print(list)
+print(type(list))
+Output
+Enter List:[10,20,30,40]
+[10, 20, 30, 40]
+<class 'list'>
+4. With list() funcƟon:
+l=list(range(0,10,2))
+print(l)
+print(type(l))
+Output
+[0, 2, 4, 6, 8]
+<class 'list'>
+5. with split() funcƟon:
+s="Learning Python is very very easy !!!"
+l=s.split()
+print(l)
+print(type(l))
+Output
+['Learning', 'Python', 'is', 'very', 'very', 'easy', '!!!']
+<class 'list'>
+Note:
+SomeƟmes we can take list inside another list,such type of lists are called nested lists. [10,20,[30,40]]
+Accessing elements of List:
+We can access elements of the list either by using index or by using slice operator(:)   1. By using index:
+List follows zero based index. ie index of first element is zero.
+List supports both +ve and -ve indexes.
++ve index meant for LeŌ to Right
+-ve index meant for Right to LeŌ
+list=[10,20,30,40]
+
+print(list[0]) ==>10
+print(list[-1]) ==>40
+print(list[10]) ==>IndexError: list index out of range
+2. By using slice operator:
+Syntax:
+list2= list1[start:stop:step]
+start ==>it indicates the index where slice has to start default value is 0  stop ===>It indicates the index
+ where slice has to end ,   default value is max allowed index of list ie length of the list  step ==>increment 
+ value, default value is 1
+Example:
+n=[1,2,3,4,5,6,7,8,9,10]
+print(n[2:7:2])
+print(n[4::2])
+print(n[3:7])
+print(n[8:2:-2])
+print(n[4:100])
+Output
+[3, 5, 7]
+[5, 7, 9]
+[4, 5, 6, 7]
+[9, 7, 5]
+[5, 6, 7, 8, 9, 10]
+List vs mutability:
+Once we creates a List object,we can modify its content. Hence List objects are mutable.  Example:
+n=[10,20,30,40]
+print(n)
+n[1]=777
+print(n)
+
+Output
+[10, 20, 30, 40]
+[10, 777, 30, 40]
+3. To display only even numbers:
+n=[0,1,2,3,4,5,6,7,8,9,10]
+for x in n:
+if x%2==0:
+print(x)
+Output
+0
+2
+4
+6
+8
+10
+4. To display elements by index wise:
+l=["A","B","C"]
+x=len(l)
+for i in range(x):
+print(l[i],"is available at posiƟve index: ",i,"and at negaƟve index: ",i-x)
+Output
+A is available at posiƟve index: 0 and at negaƟve index: -3
+B is available at posiƟve index: 1 and at negaƟve index: -2
+C is available at posiƟve index: 2 and at negaƟve index: -1
+Important funcƟons of List:
+I. To get informaƟon about list:
+1. len():
+returns the number of elements present in the list
+Example: n=[10,20,30,40]
+print(len(n))==>4
+2. count():
+It returns the number of occurrences of specified item in the list
+n=[1,2,2,2,2,3,3]
+print(n.count(1))
+print(n.count(2))
+print(n.count(3))
+print(n.count(4))
+
+
+3. index() funcƟon:
+returns the index of first occurrence of the specified item.
+Example:
+n=[1,2,2,2,2,3,3]
+print(n.index(1)) ==>0
+print(n.index(3)) ==>5
+print(n.index(4)) ==>ValueError: 4 is not in list
+Note:
+If the specified element not present in the list then we will get ValueError. Hence before index()  method 
+we have to check whether item present in the list or not by using in operator.
+print( 4 in n)==>False
+II. ManipulaƟng elements of List:
+1. append() funcƟon:
+We can use append() funcƟon to add item at the end of the list. Example:
+list=[]
+list.append("A")
+list.append("B")
+list.append("C")
+print(list)
+Output
+['A', 'B', 'C']
+Example: # Adding Elements to the List
+l =[]
+n = int(input("Enter the number of elements in the list:"))  for i in range(n):
+l.append(input("Enter the item:"))
+print("prinƟng the list items..")
+for i in l:
+print(i, end = " ")
+Example: To add all elements to list up to 100 which are divisible by 10   list=[]
+for i in range(101):
+if i%10==0:
+list.append(i)
+print(list)
+Output:
+[0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+2. insert() funcƟon:
+To insert item at specified index posiƟon
+n=[1,2,3,4,5]
+n.insert(1,888)
+print(n)
+Example:
+n=[1,2,3,4,5]
+n.insert(10,777)
+n.insert(-10,999)
+print(n)
+
+Note: If the specified index is greater than max index then element will be inserted at last posiƟon. If 
+ the specified index is smaller than min index then element will be inserted at first posiƟon.
+3. extend() funcƟon:
+To add all items of one list to another list
+l1.extend(l2)
+all items present in l2 will be added to l1
+Example:
+order1=[“apple",“banana",“kivi"]
+order2=[“indore",“bhopal",“ujjain"]
+order1.extend(order2)
+print(order1)
+Output
+7) [‘apple', ‘banana', ‘kivi', ‘indore', ‘bhopal', ‘ujjain']
+
+Example:
+order =[“apple",“banana",“kivi"]
+order.extend("Mushroom")
+print(order)
+4. remove() funcƟon:
+We can use this funcƟon to remove specified item from the list.
+If the item present mulƟple Ɵmes then only first occurrence will be removed  n=[10,20,10,30]
+n.remove(10)
+print(n)
+If the specified item not present in list then we will get ValueError
+n=[10,20,10,30]
+n.remove(40)
+print(n)
+
+Note:
+Hence before using remove() method first we have to check specified element present in the list or  not by
+ using in operator.
+5. pop() funcƟon:
+It removes and returns the last element of the list.
+This is only funcƟon which manipulates list and returns some element.
+Example:
+n=[10,20,30,40]
+print(n.pop())
+print(n.pop())
+print(n)
+If the list is empty then pop() funcƟon raises IndexError
+Example:
+n=[]
+print(n.pop()) ==> IndexError: pop from empty list
+Note:
+1. pop() is the only funcƟon which manipulates the list and returns some value 2. In general we can use 
+append() and pop() funcƟons to implement stack datastructure  by using list,which follows LIFO(Last In First Out) order.
+In general we can use pop() funcƟon to remove last element of the list. But we can use to remove  elements
+ based on index.
+n.pop(index)===>To remove and return element present at specified index.  n.pop()==>To remove and return 
+last element of the list
+n=[10,20,30,40,50,60]
+print(n.pop()) #60
+print(n.pop(1)) #20
+print(n.pop(10)) ==>IndexError: pop index out of range
+Note:
+List objects are dynamic. i.e based on our requirement we can increase and decrease the size.  append(),
+insert() ,extend() ===>for increasing the size/growable nature
+remove(), pop() ======>for decreasing the size /shrinking nature
+III. Ordering elements of List:
+1. reverse():
+We can use to reverse() order of elements of list.
+n=[10,20,30,40]
+n.reverse()
+print(n)
+Output:
+[40, 30, 20, 10]
+2. sort() funcƟon:
+In list by default inserƟon order is preserved. If want to sort the elements of list according to default 
+ natural sorƟng order then we should go for sort() method.
+For numbers ==>default natural sorƟng order is Ascending Order
+For Strings ==> default natural sorƟng order is AlphabeƟcal Order
+Example:
+n=[20,5,15,10,0]
+n.sort()
+print(n) Output: [0,5,10,15,20]
+Example
+s=["Dog","Banana","Cat","Apple"]
+s.sort()
+print(s) Output: ['Apple','Banana','Cat','Dog']
+Note: To use sort() funcƟon, compulsory list should contain only homogeneous elements. otherwise  we will
+ get TypeError
+Example:
+n=[20,10,"A","B"]
+n.sort()
+print(n) Output :
+TypeError: '<' not supported between instances of 'str' and 'int
+To sort in reverse of default natural sorƟng order:
+We can sort according to reverse of default natural sorƟng order by using reverse=True argument.
+Example: n=[40,10,30,20]
+n.sort()
+print(n) ==>[10,20,30,40]
+n.sort(reverse=True)
+print(n) ===>[40,30,20,10]
+n.sort(reverse=False)
+print(n) ==>[10,20,30,40]
+min() and max() funcƟons:
+These funcƟons return min and max values according to default natural sorƟng order. Example:
+l= [40,10,30,20]
+print(min(l)) #10
+print(max(l)) #40
+Using MathemaƟcal operators for List Objects:
+We can use + and * operators for List objects.
+1. ConcatenaƟon operator(+):
+We can use + to concatenate 2 lists into a single list
+a=[10,20,30]
+b=[40,50,60]
+c=a+b
+print(c) Output: [10,20,30,40,50,60]
+Note:
+To use + operator compulsory both arguments should be list objects, otherwise we will get  TypeError.
+Example:
+c=a+40 ==>TypeError: can only concatenate list (not "int") to list
+c=a+[40] ==>valid
+2. RepeƟƟon Operator(*):
+We can use repeƟƟon operator * to repeat elements of list specified number of Ɵmes Example:
+x=[10,20,30]
+y=x*3
+print(y) Output: [10,20,30,10,20,30,10,20,30]
+Comparing List objects
+We can use comparison operators for List objects.
+Example:
+x=["Dog","Cat","Rat"]
+y=["Dog","Cat","Rat"]
+z=["DOG","CAT","RAT"]
+Output:
+print(x==y) True
+print(x==z) False
+print(x != z) True
+Note:
+Whenever we are using comparison operators(==,!=) for List objects then the following should be  considered
+1. The number of elements
+2. The order of elements
+3. The content of elements (case sensiƟve)
+Note: When ever we are using relataƟonal operators(<,<=,>,>=) between List objects,only first  element 
+comparison will be performed.
+Example:
+x=[50,20,30]
+y=[40,50,60,100,200]
+print(x>y) True
+print(x>=y) True
+print(x<y) False
+print(x<=y) False
+Example:
+x=["Dog","Cat","Rat"]
+y=["Rat","Cat","Dog"]
+print(x>y) False
+print(x>=y) False
+print(x<y) True
+print(x<=y) True
+Membership operators:
+We can check whether element is a member of the list or not by using memebership operators.  in operator
+not in operator
+Example:
+n=[10,20,30,40]
+print (10 in n)
+print (10 not in n)
+print (50 in n)
+print (50 not in n)
+Output:
+True
+False
+False
+True
+clear() funcƟon:
+We can use clear() funcƟon to remove all elements of List.
+Example:
+n=[10,20,30,40]
+print(n)
+n.clear()
+print(n)
+
+Output
+[10, 20, 30, 40]
+[]
+Nested Lists:
+SomeƟmes we can take one list inside another list. Such type of lists are called nested lists. Example:
+n=[10,20,[30,40]]
+print(n)
+print(n[0])
+print(n[2])
+print(n[2][0])
+print(n[2][1])
+Note: We can access nested list elements by using index just like accessing mulƟ dimensional array elements
+Tuple Data Structure
+1. Tuple is exactly same as List except that it is immutable. i.e once we creates Tuple object, we  cannot 
+perform any changes in that object.
+Hence Tuple is Read Only version of List.
+2. If our data is fixed and never changes then we should go for Tuple.
+3. InserƟon Order is preserved
+4. Duplicates are allowed
+5. Heterogeneous objects are allowed.
+6. We can preserve inserƟon order and we can differenƟate duplicate objects by using index. Hence  index will
+ play very important role in Tuple also.
+Tuple support both +ve and -ve index. +ve index means forward direcƟon(from leŌ to right) and -ve  index mean
+
+s backward direcƟon(from right to leŌ)
+7. We can represent Tuple elements within Parenthesis and with comma separator.  Parentheses are opƟonal but 
+recommended to use.
+Example1:
+t=10,20,30,40
+print(t)
+print(type(t))
+
+Output
+(10, 20, 30, 40)
+<class 'tuple'>
+Example2:
+t=()
+print(type(t))
+Output:
+tuple
+Note: We have to take special care about single valued tuple.compulsary the value  should ends with comma,
+ otherwise it is not treated as tuple.
+Tuple creaƟon:
+1. t=()
+creaƟon of empty tuple
+2. t=(10,)
+t=10,
+creaƟon of single valued tuple ,parenthesis are opƟonal,should ends with comma 3. t=10,20,30
+t=(10,20,30)
+creaƟon of mulƟ values tuples & parenthesis are opƟonal 4. By using tuple() funcƟon:
+list=[10,20,30]
+t=tuple(list)
+print(t)
+5. t=tuple(range(10,20,2))
+print(t)
+Accessing elements of tuple:
+We can access either by index or by slice operator  1. By using index:
+t=(10,20,30,40,50,60)
+print(t[0]) #10
+print(t[-1]) #60
+print(t[100]) IndexError: tuple index out of range
+2. By using slice operator:
+t=(10,20,30,40,50,60)
+print(t[2:5])
+print(t[2:100])
+print(t[::2])
+
+Tuple vs immutability:
+Once we creates tuple,we cannot change its content.  Hence tuple objects are immutable.
+
+Example:
+t=(10,20,30,40)
+t[1]=70 TypeError: 'tuple' object does not support item assignment
+MathemaƟcal operators for tuple:
+We can apply + and * operators for tuple
+1. ConcatenaƟon Operator(+):
+t1=(10,20,30)
+t2=(40,50,60)
+t3=t1+t2
+print(t3)
+Output:
+(10,20,30,40,50,60)
+2. MulƟplicaƟon operator or repeƟƟon operator(*)  t1=(10,20,30)
+t2=t1*3
+print(t2)
+Output:
+(10,20,30,10,20,30,10,20,30)
+Important funcƟons of Tuple:
+1. len()
+To return number of elements present in the tuple   Example: t=(10,20,30,40)
+print(len(t)) #4
+2. count()
+To return number of occurrences of given element in the tuple   Example: t=(10,20,10,10,20)
+print(t.count(10)) #3
+3. index()
+returns index of first occurrence of the given element.
+If the specified element is not available then we will get ValueError.
+Example:
+t=(10,20,10,10,20)
+print(t.index(10)) #0
+print(t.index(30)) ValueError: tuple.index(x): x not in tuple
+4. sorted()
+To sort elements based on default natural sorƟng order
+t=(40,10,30,20)
+t1=sorted(t)
+print(t1)
+print(t)
+We can sort according to reverse of default natural sorƟng order as follows: t1=sorted(t,reverse=True)
+print(t1) [40, 30, 20, 10]
+5. min() and max() funcƟons:
+These funcƟons return min and max values according to default natural sorƟng order. Example: t=(40,10,30,20)
+print(min(t)) #10
+print(max(t)) #40
+DicƟonary Data Structure
+ We can use List, Tuple and Set to represent a group of individual objects as a single enƟty.
+ If we want to represent a group of objects as key-value pairs then we should go for  DicƟonary.
+Example:
+rollno----name
+phone number--address
+ipaddress---domain name
+ Duplicate keys are not allowed but values can be duplicated.   Heterogeneous objects are allowed for 
+both key and values.   inserƟon order is not preserved
+ DicƟonaries are mutable
+ DicƟonaries are dynamic
+ indexing and slicing concepts are not applicable
+How to create DicƟonary?
+d={} or d=dict()
+we are creaƟng empty dicƟonary. We can add entries as follows d[100]=“amit"
+d[200]="ravi"
+d[300]="shivam"
+print(d)
+Output:{100: ‘amit', 200: 'ravi', 300: 'shivam'}
+If we know data in advance then we can create dicƟonary as follows d={100:‘amit' ,200:'ravi', 300:'shivam'}
+d={key:value, key:value}
+How to access data from the dicƟonary?
+We can access data by using keys.
+d={100:‘amit' ,200:'ravi', 300:'shivam'}
+print(d[100]) #amit
+print(d[300]) #shivam
+ If the specified key is not available then we will get KeyError   print(d[400]) # KeyError: 400
+ We can prevent this by checking whether key is already available or not by using has_key()  funcƟon or 
+by using in operator.
+d.has_key(400) ==> returns 1 if key is available otherwise returns 0
+But has_key() funcƟon is available only in Python 2 but not in Python 3. Hence   compulsory we have to use
+ in operator.
+if 400 in d:
+print(d[400]
+Write a program to enter name and percentage marks in a dicƟonary and display informaƟon on the  screen
+rec={}
+n=int(input("Enter number of students: "))
+i=1
+while i <=n:
+name=input("Enter Student Name: ")
+marks=input("Enter % of Marks of Student: ")
+rec[name]=marks
+i=i+1
+print("Name of Student","\t","% of marks")
+for x in rec:
+print("\t",x,"\t\t",rec[x])
+How to update dicƟonaries?
+d[key]=value
+If the key is not available then a new entry will be added to the dicƟonary with the specified key value pair
+If the key is already available then old value will be replaced with new value.  Example:
+d={100:"amit",200:"ravi",300:"shivam"}
+print(d)
+d[400]="pavan"
+print(d)
+d[100]="naman"
+print(d)
+Output
+{100: 'amit', 200: 'ravi', 300: 'shivam'}
+{100: 'amit', 200: 'ravi', 300: 'shivam', 400: 'pavan'}   {100: 'naman', 200: 'ravi', 300: 'shivam', 400: 'pavan'}
+How to delete elements from dicƟonary? del d[key]
+It deletes entry associated with the specified key.   If the key is not available then we will get KeyError  Example:
+d={100:"amit",200:"ravi",300:"shivam"}   print(d)
+del d[100]
+print(d)
+del d[400]
+
+Output
+{100: 'amit', 200: 'ravi', 300: 'shivam'}
+{200: 'ravi', 300: 'shivam'}
+KeyError: 400
+d.clear()
+To remove all entries from the dicƟonary Example:
+d={100:“amit",200:"ravi",300:"shivam"}
+print(d)
+d.clear()
+print(d)
+Output
+{100: ‘amit', 200: 'ravi', 300: 'shivam'}
+{}
+del d
+To delete total dicƟonary.Now we cannot access d
+Example:
+d={100:“amit",200:"ravi",300:"shivam"}
+print(d)
+del d
+print(d)
+Output
+{100: ‘amit', 200: 'ravi', 300: 'shivam'}
+NameError: name 'd' is not defined
+Important funcƟons of dicƟonary:
+1. dict():
+To create a dicƟonary
+d=dict() ===>It creates empty dicƟonary
+d=dict({100:"amit",200:"ravi"}) ==>It creates dicƟonary with specified elements
+d=dict([(100,"amit"),(200,"shivam"),(300,"ravi")])==>It creates dicƟonary with the given list of tuple  elements
+2. len()
+Returns the number of items in the dicƟonary
+3. clear():
+To remove all elements from the dicƟonary
+4. get():
+To get the value associated with the key
+d.get(key)
+If the key is available then returns the corresponding value otherwise returns None.It wont raise any  error.
+d.get(key,defaultvalue)
+If the key is available then returns the corresponding value otherwise returns default value.  Example:
+d={100:"amit",200:"ravi",300:"shivam"}
+print(d[100]) ==>amit
+print(d[400]) ==>KeyError:400
+print(d.get(100)) ==amit
+print(d.get(400)) ==>None
+print(d.get(100,"Guest")) ==amit
+print(d.get(400,"Guest")) ==>Guest
+5. pop():
+d.pop(key)
+It removes the entry associated with the specified key and returns the corresponding value   If the specified key 
+is not available then we will get KeyError
+Example:
+d={100:"amit",200:"ravi",300:"shivam"}
+print(d.pop(100))
+print(d)
+print(d.pop(400))
+
+Output
+amit
+{200: 'ravi', 300: 'shivam'}
+KeyError: 400
+6. popitem():
+It removes an arbitrary item(key-value) from the dicƟonaty and returns it. Example:
+d={100:"amit",200:"ravi",300:"shivam"}
+print(d)
+print(d.popitem())
+print(d)
+
+Output
+{100: 'amit', 200: 'ravi', 300: 'shivam'}
+(300, 'shiva')
+{100: 'amit', 200: 'ravi'}
+If the dicƟonary is empty then we will get KeyError
+d={}
+print(d.popitem()) ==>KeyError: 'popitem(): dicƟonary is empty'
+7. keys():
+It returns all keys associated with dicƟonary
+Example:
+d={100:"amit",200:"ravi",300:"shivam"}
+print(d.keys())
+for k in d.keys():
+print(k)
+
+Output
+dict_keys([100, 200, 300])
+100
+200
+30
+8. values():
+It returns all values associated with the dicƟonary Example:
+d={100:"amit",200:"ravi",300:"shivam"}   print(d.values())
+for v in d.values():
+print(v)
+Output
+dict_values(['amit', 'ravi', 'shivam'])
+amit
+ravi
+shivam
+9. items():
+It returns list of tuples represenƟng key-value pairs.  [(k,v),(k,v),(k,v)]
+Example:
+d={100:"amit",200:"ravi",300:"shivam"}   for k,v in d.items():
+print(k,"--",v)
+
+Output
+100 -- amit
+200 -- ravi
+300 -- shivam
+10. copy():
+To create exactly duplicate dicƟonary(cloned copy) d1=d.copy();
+11. setdefault():
+d.setdefault(k,v)
+ If the key is already available then this funcƟon returns the corresponding value.
+ If the key is not available then the specified key-value will be added as new item to the  dicƟonary.
+Example
+d={100:"amit",200:"ravi",300:"shivam"}
+print(d.setdefault(400,"pavan"))
+print(d)
+print(d.setdefault(100,"sachin"))
+print(d)
+Output
+pavan
+{100: 'amit', 200: 'ravi', 300: 'shivam', 400: 'pavan'}
+amit
+{100: 'amit', 200: 'ravi', 300: 'shivam', 400: 'pavan'}
+10. update():
+d.update(x)
+All items present in the dicƟonary x will be added to dicƟonary d
+Example:
+d={100:"amit",200:"ravi",300:"shivam"}
+d1={'a':"apple",'b':"banana"}
+d.update(d1)
+print(d)
+Output:
+{100:"amit",200:"ravi",300:"shivam",'a':"apple",'b':"banana"}
+Write a program to take dicƟonary from the keyboard and print the sum of values?
+d=eval(input("Enter dicƟonary:"))
+s=sum(d.values())
+print("Sum= ",s)
+Note: sum() funcƟon is in built funcƟon and can be used with list, tuple and set also Example: l=[10,20,30]
+s=sum(l) output: 60
+Output
+Enter dicƟonary:{'A':100,'B':200,'C':300}
+Sum= 600
+DicƟonary Comprehension:
+Comprehension concept applicable for dicƟonaries also.
+squares={x:x*x for x in range(1,6)}
+print(squares)
+doubles={x:2*x for x in range(1,6)}
+print(doubles)
+Output
+{1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+{1: 2, 2: 4, 3: 6, 4: 8, 5: 10}
+UNIT 3
+Flow Control Statements
+A program's control flow is the order in which the program's code executes. The control flow of a  Python program 
+is regulated by condiƟonal statements, loops, and funcƟon calls
+I. CondiƟonal Statements
+1) If statement
+Syntax:
+if condiƟon :
+statement
+or
+if condiƟon :
+statement-1
+statement-2
+statement-3
+If condiƟon is true then statements will be executed.
+Example:
+1) name=input("Enter Name:")
+2) if name=="Medicaps" :
+3) print("Hello Medicaps Good Morning")
+4) print("How are you!!!")
+2) if-else:
+if condiƟon :
+AcƟon-1
+else :
+AcƟon-2
+if condiƟon is true then AcƟon-1 will be executed otherwise AcƟon-2 will be executed.  Example
+Write a program to find biggest of given 2 numbers.  1) n1=int(input("Enter First Number:"))
+2) n2=int(input("Enter Second Number:"))
+3) if n1>n2:
+4) print("Biggest Number is:",n1)
+5) else :
+6) print("Biggest Number is:",n2)
+Output:
+D:\Python> py test.py
+Enter First Number:10
+Enter Second Number:20
+Biggest Number is: 20
+Example:
+Python Program to check whether a number is even or not.  num = int(input("enter the number:"))
+if num%2 == 0:
+print("The Given number is an even number")  else:
+print("The Given Number is an odd number")  Output:
+enter the number: 10
+The Given number is even number
+3) if-elif-else:
+Syntax:
+if condiƟon1:
+AcƟon-1
+elif condiƟon2:
+AcƟon-2
+elif condiƟon3:
+AcƟon-3
+elif condiƟon4:
+AcƟon-4
+...
+else:
+Default AcƟon
+Based condiƟon the corresponding acƟon will be executed
+Syntax:
+if expression 1:
+# block of statements
+
+elif expression 2:
+# block of statements
+
+elif expression 3:
+# block of statements
+
+else:
+# block of statements
+Example 1: Write a program to find biggest of given 3 numbers.  1) n1=int(input("Enter First Number:"))
+2) n2=int(input("Enter Second Number:"))
+3) n3=int(input("Enter Third Number:"))
+4) if n1>n2 and n1>n3:
+5) print("Biggest Number is:",n1)
+6) elif n2>n3:
+7) print("Biggest Number is:",n2)
+8) else :
+9) print("Biggest Number is:",n3)
+Output
+11) D:\Python> py test.py
+12) Enter First Number:10
+13) Enter Second Number:20
+14) Enter Third Number:30
+15) Biggest Number is: 30
+Example 2
+marks = int(input("Enter the marks? "))
+if marks > 85 and marks <= 100:
+print("Congrats ! you scored grade A ...")
+elif marks > 60 and marks <= 85:
+print("You scored grade B + ...")
+elif marks > 40 and marks <= 60:
+print("You scored grade B ...")
+elif (marks > 30 and marks <= 40):
+print("You scored grade C ...")
+else:
+print("Sorry you are fail ?")
+
+Output:
+Enter the marks? 89
+Congrats ! you scored grade A ...
+II. IteraƟve Statements
+If we want to execute a group of statements mulƟple Ɵmes then we should go for IteraƟve  statements.
+Python supports 2 types of iteraƟve statements.
+1. for loop
+2. while loop
+1) for loop:
+If we want to execute some acƟon for every element present in some sequence(it may be string or  collecƟon) 
+then we should go for for loop.
+Syntax:
+for x in sequence :
+body
+where sequence can be string or any collecƟon.
+Body will be executed for every element present in the sequence.
+Syntax
+for variable in sequence:
+statements_to_repeat
+Example1: To print characters present in the given string
+s="Indore"
+for x in s :
+print(x)
+Output
+I
+n
+d
+o
+r
+e
+Example 2
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+print(x)
+Output:
+apple
+banana
+cherry
+Loops with else block( statements):
+ As already said, a for loop executes the code block unƟl the sequence element is reached.  The statement 
+is wriƩen right aŌer the for loop is executed aŌer the execuƟon of the for  loop is complete.
+ Only if the execuƟon is complete does the else statement comes into play. It won't be  executed if we exit
+ the loop or if an error is thrown.
+ Inside loop execuƟon, if break statement not executed ,then only else part will be executed.  else means
+ loop without break
+Syntax:
+for value in sequence:
+# executes the statements unƟl sequences are exhausted
+else:
+# executes these statements when for loop execuƟon is completed
+Example:
+cart=[10,20,30,40,50]
+for item in cart:
+if item>=500:
+print("We cannot process this order")
+break
+print(item)
+else:
+print("Congrats ...all items processed successfully")
+Output
+10
+20
+30
+40
+50
+Congrats ...all items processed successfully
+The range() FuncƟon
+ With the help of the range() funcƟon, we may produce a series of numbers. range(10) will  produce values
+ between 0 and 9. (10 numbers).
+
+ We can give specific start, stop, and step size values in the manner range(start, stop, step  size). If
+ the step size is not specified, it defaults to 1.
+Example:
+program to print table of a number
+n=int(input(" Enter Number"))
+for i in range(1,11):
+print(n, 'x',i, '=', n*i)
+# Python program to find the factorial of a number provided by the user.
+num = int(input("Enter a number: "))
+factorial = 1
+# check if the number is negaƟve, posiƟve or zero
+if num < 0:
+print("Sorry, factorial does not exist for negaƟve numbers")
+elif num == 0:
+print("The factorial of 0 is 1")
+else:
+for i in range(1,num + 1):
+factorial = factorial*i
+print("The factorial of",num,"is",factorial)
+Fibonacci series up to first 20 elements
+0 1 1 2 3 5 8......
+a=0
+b=1
+print(a)
+print(b) for i in range(1,19):
+c=a+b
+print(c)
+a,b=b,c
+2) while loop:
+If we want to execute a group of statements iteraƟvely unƟl some condiƟon false, then we should go  for while loop.
+Syntax:
+while condiƟon :
+body
+Example: To print numbers from 1 to 10 by using while loop
+x=1
+while x <=10:
+print(x)
+x=x+1
+
+Example: To display the sum of first n numbers
+n=int(input("Enter number:"))
+sum=0
+i=1
+while i<=n:
+sum=sum+i
+i=i+1
+print("The sum of first",n,"numbers is :",sum)
+Program to calculate factorial of a number.
+n=int(input("Enter number"))
+fact=1
+i=1
+while i<=n:
+fact*=i
+i+=1
+print("factorial of", n, "is", fact)
+Output:
+Enter number 3
+factorial of", 3, "is" 6
+Nested Loops:
+SomeƟmes we can take a loop inside another loop, which are also known as nested loops. Example:
+for i in range(3):
+for j in range(4):
+print("i=",i," j=",j)
+
+
+Output
+i= 0 j= 0
+i= 0 j= 1
+i= 0 j= 2
+i= 0 j= 3
+i= 1 j= 0
+i= 1 j= 1
+i= 1 j= 2
+i= 1 j= 3
+i= 2 j= 0
+i= 2 j= 1
+i= 2 j= 2
+i= 2 j= 3
+III. Transfer Statements
+1) break:
+We can use break statement inside loops to break loop execuƟon based on some condiƟon. Example:
+for i in range(10):
+if i==7:
+print("processing is enough..plz break")
+break
+print(i)
+
+Output:
+0
+1
+2
+3
+4
+5
+6
+processing is enough..plz break
+2) conƟnue:
+We can use conƟnue statement to skip current iteraƟon and conƟnue next iteraƟon. It is used to  conƟnue the loop.
+Example: To print odd numbers in the range 0 to 9
+for i in range(10):
+if i%2==0:
+conƟnue
+print(i)
+Output
+1
+3
+5
+7
+9
+3) pass statement:
+ pass is a keyword in Python. The null statement is another name for the pass statement.
+ In our programming syntacƟcally if block is required which won't do anything then we can  define that
+ empty block with pass keyword.
+ pass
+|- It is an empty statement
+|- It is null statement
+|- It won't do anything
+Example:
+if True:
